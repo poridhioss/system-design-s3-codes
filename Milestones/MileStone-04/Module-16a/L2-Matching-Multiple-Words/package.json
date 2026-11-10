@@ -1,0 +1,21 @@
+{
+  "name": "m16a-02-posting-lists",
+  "version": "1.0.0",
+  "description": "Matching Multiple Words Across Millions of Pages in Microseconds: Contiguous Posting Lists, Two-Pointer Merge & Delta Compression",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test_posting_list.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "information-retrieval",
+    "inverted-index",
+    "posting-lists",
+    "two-pointer-merge",
+    "delta-compression",
+    "uint32array"
+  ],
+  "author": "Poridhi Cloud Engineering",
+  "license": "MIT"
+}
