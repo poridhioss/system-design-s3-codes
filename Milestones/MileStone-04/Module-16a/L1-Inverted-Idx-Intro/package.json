@@ -1,0 +1,21 @@
+{
+  "name": "m16a-prereq-01-text-processing",
+  "version": "1.0.0",
+  "description": "Module 16a Prereq Lab 01: How Search Engines Read When You Misspell and Type Fast",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test_text_analyzer.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "information-retrieval",
+    "text-processing",
+    "tokenization",
+    "nlp",
+    "search-engine",
+    "inverted-index"
+  ],
+  "author": "Poridhi SWE Team",
+  "license": "MIT"
+}
