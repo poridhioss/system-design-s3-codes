@@ -1,0 +1,10 @@
+{
+  "name": "relevance-metrics-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Module 16a Lab 5: Cranfield Information Retrieval Evaluation Engine",
+  "scripts": {
+    "test": "node --test test_relevance_metrics.js",
+    "start": "node main.js"
+  }
+}

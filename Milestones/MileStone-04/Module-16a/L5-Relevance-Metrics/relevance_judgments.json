@@ -1,0 +1,39 @@
+{
+  "corpus_description": "Distributed Systems Technical Knowledge Base",
+  "grading_scale": { "0": "Irrelevant", "1": "Partially Relevant", "2": "Highly Relevant" },
+  "queries": [
+    {
+      "query_id": "A1", "query": "replicating cache nodes", "type": "conversational",
+      "judgments": [
+        { "doc_id": 101, "grade": 2 }, { "doc_id": 104, "grade": 2 },
+        { "doc_id": 108, "grade": 1 }, { "doc_id": 115, "grade": 0 }
+      ]
+    },
+    {
+      "query_id": "A2", "query": "redis cache clustering and sharding", "type": "multi_word",
+      "judgments": [
+        { "doc_id": 102, "grade": 2 }, { "doc_id": 108, "grade": 2 },
+        { "doc_id": 101, "grade": 1 }, { "doc_id": 120, "grade": 0 }
+      ]
+    },
+    {
+      "query_id": "A3", "query": "how to achieve consensus across distributed servers", "type": "conversational",
+      "judgments": [
+        { "doc_id": 201, "grade": 2 }, { "doc_id": 205, "grade": 2 },
+        { "doc_id": 208, "grade": 1 }, { "doc_id": 101, "grade": 0 }
+      ]
+    },
+    {
+      "query_id": "B1", "query": "in-memory key-value", "type": "exact_keywords",
+      "judgments": [ { "doc_id": 101, "grade": 2 }, { "doc_id": 103, "grade": 2 }, { "doc_id": 102, "grade": 1 } ]
+    },
+    {
+      "query_id": "B2", "query": "scatter-gather", "type": "exact_keywords",
+      "judgments": [ { "doc_id": 301, "grade": 2 }, { "doc_id": 304, "grade": 2 } ]
+    },
+    {
+      "query_id": "B3", "query": "raft consensus leader election", "type": "exact_keywords",
+      "judgments": [ { "doc_id": 201, "grade": 2 }, { "doc_id": 202, "grade": 2 }, { "doc_id": 205, "grade": 1 } ]
+    }
+  ]
+}
