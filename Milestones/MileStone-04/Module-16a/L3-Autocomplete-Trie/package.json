@@ -1,0 +1,21 @@
+{
+  "name": "m16a-03-character-trie",
+  "version": "1.0.0",
+  "description": "Predicting What You Want Before You Finish Typing: Character Tries, V8 Hidden Class Stabilization, and Subtree Top-K Caching",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test_character_trie.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "typeahead",
+    "autocomplete",
+    "trie",
+    "prefix-tree",
+    "v8-optimization",
+    "top-k"
+  ],
+  "author": "Poridhi Cloud Engineering",
+  "license": "MIT"
+}
