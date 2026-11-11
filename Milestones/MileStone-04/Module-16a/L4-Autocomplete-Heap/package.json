@@ -1,0 +1,20 @@
+{
+  "name": "topk-heap-lab",
+  "version": "1.0.0",
+  "description": "High-throughput autocomplete with bounded MinHeap and flat prefix caching",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test_topk_heap.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "typeahead",
+    "autocomplete",
+    "minheap",
+    "zipf",
+    "cache",
+    "system-design"
+  ],
+  "author": "Poridhi System Design Season 3",
+  "license": "ISC"
+}
