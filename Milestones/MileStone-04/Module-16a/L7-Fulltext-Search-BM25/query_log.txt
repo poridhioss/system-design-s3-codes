@@ -1,0 +1,28 @@
+======================================================================
+INVERTED INDEX ENGINE: BENCHMARK QUERY LOG
+======================================================================
+
+Query 1: "distributed cache replication"
+----------------------------------------------------------------------
+  Rank 1: Doc 01 [BM25: 4.0272] - Distributed In-Memory Caching with Redis
+         Snippet: ... in-memory key-value data store frequently deployed as a <em>distributed</em> <em>cache.</em> A <em>distributed</em> <em>cache</em> cluster accelerates read-heavy workloads ...
+
+Query 2: "raft consensus leader election"
+----------------------------------------------------------------------
+  Rank 1: Doc 02 [BM25: 11.7023] - Raft Consensus and Leader Election
+         Snippet: The <em>Raft</em> <em>consensus</em> algorithm maintains state machine consistency across distributed ...
+
+Query 3: "database sharding partition key"
+----------------------------------------------------------------------
+  Rank 1: Doc 03 [BM25: 7.9590] - Database Sharding and Horizontal Partitioning
+         Snippet: <em>Database</em> <em>sharding</em> divides a large dataset across multiple <em>database</em> ...
+
+Query 4: "kafka event streaming partition"
+----------------------------------------------------------------------
+  Rank 1: Doc 04 [BM25: 10.2008] - Kafka Event Streaming and Partition Rebalancing
+         Snippet: Apache <em>Kafka</em> is a distributed <em>event</em> <em>streaming</em> platform organized into ...
+
+Query 5: "consistent hashing virtual nodes"
+----------------------------------------------------------------------
+  Rank 1: Doc 05 [BM25: 10.1978] - Consistent Hashing and Virtual Nodes
+         Snippet: <em>Consistent</em> <em>hashing</em> maps both servers and data keys onto ...
