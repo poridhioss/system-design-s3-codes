@@ -1,0 +1,22 @@
+{
+  "name": "m16a-06-circuit-breaker-fsm",
+  "version": "1.0.0",
+  "description": "Preventing Slow Databases from Crashing Your Entire Website: 3-State Circuit Breaker FSM, Rolling Circular Ring Buffers & Single-Flight Canary Recovery",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test test_circuit_breaker.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "system-design",
+    "circuit-breaker",
+    "finite-state-machine",
+    "ring-buffer",
+    "typed-array",
+    "fault-tolerance",
+    "cascading-failures"
+  ],
+  "author": "Poridhi Cloud Engineering",
+  "license": "MIT"
+}
