@@ -1,0 +1,14 @@
+{
+  "name": "unified-search-layer-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lab 10: Fault-Tolerant Unified Search Gateway combining Trie Autocomplete, Elasticsearch, and In-Memory Inverted Index Fallback.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node verify_search_layer.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.0",
+    "express": "^4.21.0"
+  }
+}
