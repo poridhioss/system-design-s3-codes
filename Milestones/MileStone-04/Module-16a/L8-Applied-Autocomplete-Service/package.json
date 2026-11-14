@@ -1,0 +1,17 @@
+{
+  "name": "autocomplete_lab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "High-Throughput Autocomplete with In-Memory Caching",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test_autocomplete.js",
+    "benchmark": "node benchmark.js",
+    "test:redis": "node test_redis.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1"
+  }
+}
