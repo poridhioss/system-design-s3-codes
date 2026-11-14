@@ -1,0 +1,15 @@
+{
+  "name": "es-benchmark-lab",
+  "version": "1.0.0",
+  "description": "Lab 9: First Principles vs. Elasticsearch in Production - Comparative Performance Benchmark",
+  "type": "module",
+  "scripts": {
+    "test:health": "node test_es.js",
+    "setup:index": "node es_client.js",
+    "benchmark": "node benchmark.js",
+    "test": "node --test test_es_comparison.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.11.0"
+  }
+}
