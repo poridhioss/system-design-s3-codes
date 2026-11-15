@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
-    container_name: poridhi-elasticsearch-m16a-l4
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: poridhi-elasticsearch-m16a-l9
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
