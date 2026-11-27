@@ -1,0 +1,23 @@
+{
+  "name": "snowflake-sequencer-lab",
+  "version": "1.0.0",
+  "description": "64-Bit Binary Bit-Packing and Safe Monotonic Clocks in Node.js",
+  "type": "module",
+  "main": "benchmark.js",
+  "scripts": {
+    "test": "node --test test_snowflake.js",
+    "start": "node benchmark.js"
+  },
+  "keywords": [
+    "snowflake",
+    "bigint",
+    "bitwise",
+    "monotonic-clock",
+    "distributed-systems"
+  ],
+  "author": "Poridhi Backend Engineering",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
